@@ -40,11 +40,7 @@ private:
     SnakesladdersLink* last;
 public:
     Board();
-    void insertSquare(int square,int endSquare);
-    void displaySquare();
-    void handleInsertSquare(int index);
-    void displaybord();
-    void rules();
+   
     SnakesladdersLink* findSquare(int Squareid);
     int snakesarray[7][2] = {
         {30, 7},
