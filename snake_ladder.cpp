@@ -70,14 +70,4 @@ void SnakesladdersLink::displaySnakeLink() {
     cout << square <<" "<<endSquare<< endl;
 }
 
-SnakesladdersLink* Board::findSquare(int Squareid){
-    SnakesladdersLink* findlink = first;
-    while(findlink != NULL){
-        if(findlink->square==Squareid){
-            return findlink;
-        } else{
-            findlink=findlink->next;
-        }
-    }
-    return NULL;
-}
+
