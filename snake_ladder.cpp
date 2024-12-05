@@ -66,8 +66,4 @@ public:
 
 };
 
-void SnakesladdersLink::displaySnakeLink() {
-    cout << square <<" "<<endSquare<< endl;
-}
-
 
